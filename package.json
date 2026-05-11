@@ -1,0 +1,21 @@
+{
+  "name": "gameflow-example-plugin",
+  "version": "1.0.0",
+  "module": "dist/index.js",
+  "type": "module",
+  "keywords": [
+    "gameflow",
+    "gameflow-plugin"
+  ],
+  "icon": "",
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "@simeonradivoev/gameflow-sdk": "^1.6.0",
+    "typescript": "^5"
+  },
+  "scripts": {
+    "build": "bun gameflow-build"
+  }
+}
