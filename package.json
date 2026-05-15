@@ -1,7 +1,7 @@
 {
   "name": "@simeonradivoev/gameflow-internet-archive",
-  "description": "Internet Archive Search Integration. Download roms and software directly from the app.",
-  "version": "1.0.0",
+  "description": "Internet Archive Search Integration. Download roms and software directly from the gameflow's shop.",
+  "version": "1.0.1",
   "main": "dist/index.js",
   "type": "module",
   "keywords": [
