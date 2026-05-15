@@ -1,5 +1,6 @@
 {
   "name": "@simeonradivoev/gameflow-internet-archive",
+  "description": "Internet Archive Search Integration. Download roms and software directly from the app.",
   "version": "1.0.0",
   "main": "dist/index.js",
   "type": "module",
@@ -7,7 +8,9 @@
     "internet-archive",
     "integration",
     "gameflow",
-    "gameflow-plugin"
+    "gameflow-plugin",
+    "downloads",
+    "search"
   ],
   "icon": "https://simpleicons.org/icons/internetarchive.svg",
   "category": "sources",
