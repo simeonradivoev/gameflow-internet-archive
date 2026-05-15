@@ -23,6 +23,8 @@
     "typescript": "^5"
   },
   "scripts": {
-    "build": "bun gameflow-build"
+    "build": "bun gameflow-build",
+    "publish": "bun publish --access public",
+    "prepublishOnly": "bun run build"
   }
 }
