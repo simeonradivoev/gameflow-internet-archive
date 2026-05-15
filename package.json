@@ -1,18 +1,22 @@
 {
-  "name": "gameflow-example-plugin",
+  "name": "@simeonradivoev/gameflow-internet-archive",
   "version": "1.0.0",
-  "module": "dist/index.js",
+  "main": "dist/index.js",
   "type": "module",
   "keywords": [
+    "internet-archive",
+    "integration",
     "gameflow",
     "gameflow-plugin"
   ],
-  "icon": "",
+  "icon": "https://simpleicons.org/icons/internetarchive.svg",
+  "category": "sources",
   "devDependencies": {
-    "@types/bun": "latest"
+    "@types/bun": "latest",
+    "tslib": "^2.8.1"
   },
   "peerDependencies": {
-    "@simeonradivoev/gameflow-sdk": "^1.6.0",
+    "@simeonradivoev/gameflow-sdk": "^1.7.0",
     "typescript": "^5"
   },
   "scripts": {
